@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">All in one</string>
+    <string name="openDrawer">Open Nav Drawer</string>
+    <string name="closeDrawer">Close Nav Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

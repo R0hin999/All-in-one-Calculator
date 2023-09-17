@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SgpaToPerc"
+     android:background="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your SGPA "
+        android:textColor="@color/white"
+android:layout_y="150dp"
+        android:textStyle="bold"
+        android:textSize="12pt"
+        android:gravity="center" />
+    <EditText
+        android:gravity="center"
+        android:id="@+id/input"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#282829"
+        android:layout_y="250dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:hint="Enter here"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/white"
+        android:layout_x="50dp"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_x="130dp"
+        android:layout_y="380dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Convert"/>
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_y="500dp"
+        android:textSize="12pt"
+        android:gravity="center" />
+
+</AbsoluteLayout>
